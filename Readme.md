@@ -9,9 +9,8 @@ We used a YOLOv8 for detector and strongsort for tracker.
 - If you want to visualize video, move videos to 'visualizing-web/static/data/bbox-video'
 - Then, run the following command:
 ```python visualizing-web/app.py```
-- In frames, you can cut the video into frames and save them by the format: 001, 002, 003
-- Download data in this link: 
-- After that, put in 
+- With folder frames, you can cut the video into frames and save them by the format: 001, 002, 003
+- With folder static/data, you put your videos in.
 # Training
-- To train yolov8, refer this repo: https://github.com/ultralytics/ultralytics
+- To train yolov8, refer this repo: https://github.com/ultralytics/ultralytics'
 - To train feature extractor of strongsort, refer this repo: https://github.com/kadirnar/strongsort-pip
